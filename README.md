@@ -1,7 +1,7 @@
 
 # Fabric Engine KL Syntax 
 
-![](images/fe_logo.png)
+![](https://github.com/melMass/vscode-kl/blob/master/images/fe_logo.png?raw=true)
 
 ## Features
 
