@@ -4,7 +4,7 @@
     "description": "Fabric Engine's KL Language",
     "version": "0.0.2",
     "publisher": "melmass",
-    "repository": "https://melmass.visualstudio.com/_git/KL",
+    "repository": "https://github.com/melMass/vscode-kl.git",
     "icon":"images/icon.png",
     "engines": {
         "vscode": "^1.12.0"
