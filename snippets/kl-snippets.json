@@ -1,0 +1,56 @@
+{
+    ":f": {
+        "prefix": ":f",
+        "body": "${1:method_name}: function(${3:attribute}){\n\t$0\n}${10:,}",
+        "description": "Object Method",
+        "scope": "source.kl"
+    },
+    ":,": {
+        "prefix": ":,",
+        "body": "${1:value_name}:${0:value},",
+        "description": "Object Value JS",
+        "scope": "source.kl"
+    },
+    ":": {
+        "prefix": ":",
+        "body": "${1:key}: ${2:\"${3:value}\"}${4:, }",
+        "description": "Object key — key: \"value\"",
+        "scope": "source.kl"
+    },
+    "for": {
+        "prefix": "for",
+        "body": "for (var ${20:i} = ${1:Things}.length - 1; ${20:i} >= 0; ${20:i}--) {\n\t${100:${1:Things}[${20:i}]}$0\n};",
+        "description": "for (…) {…} (Improved Native For-Loop)",
+        "scope": "source.kl"
+    },
+    "for1": {
+        "prefix": "for",
+        "body": "for (var ${20:i} = 0; ${20:i} < ${1:Things}.length; ${20:i}++) {\n\t${100:${1:Things}[${20:i}]}$0\n};",
+        "description": "for (…) {…}",
+        "scope": "source.kl"
+    },
+    "fun": {
+        "prefix": "fun",
+        "body": "function ${1:function_name} (${2:argument}) {\n\t${0:// body...}\n}",
+        "description": "Function",
+        "scope": "source.kl"
+    },
+    "f": {
+        "prefix": "f",
+        "body": "function($1) {${0:$TM_SELECTED_TEXT}};",
+        "description": "Anonymous Function",
+        "scope": "source.kl"
+    },
+    "ife": {
+        "prefix": "ife",
+        "body": "if (${1:true}) {${0:$TM_SELECTED_TEXT}} else{};",
+        "description": "if … else",
+        "scope": "source.kl"
+    },
+    "if": {
+        "prefix": "if",
+        "body": "if (${1:true}) {${0:$TM_SELECTED_TEXT}};",
+        "description": "if",
+        "scope": "source.kl"
+    }
+}
