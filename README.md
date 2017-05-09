@@ -1,6 +1,6 @@
 
-<h1 align="center">Fabric Engine KL Syntax</h1> 
-<p align="center"><img src=images/fe_logo.png></p>
+#Fabric Engine KL Syntax 
+![](images/fe_logo.png)
 ## Features
 
 Simple syntax higlighter for Fabric Engine Language.
