@@ -4,6 +4,8 @@
     "description": "Fabric Engine's KL Language",
     "version": "0.0.2",
     "publisher": "melmass",
+    "repository": "https://melmass.visualstudio.com/_git/KL",
+    "icon":"images/icon.png",
     "engines": {
         "vscode": "^1.12.0"
     },
