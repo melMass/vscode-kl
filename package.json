@@ -2,7 +2,7 @@
     "name": "kl",
     "displayName": "KL",
     "description": "Fabric Engine's KL Language",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "publisher": "melmass",
     "repository": "https://github.com/melMass/vscode-kl.git",
     "icon": "images/icon.png",
