@@ -2,10 +2,10 @@
     "name": "kl",
     "displayName": "KL",
     "description": "Fabric Engine's KL Language",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "melmass",
     "repository": "https://github.com/melMass/vscode-kl.git",
-    "icon":"images/icon.png",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.12.0"
     },
@@ -14,23 +14,31 @@
         "Snippets"
     ],
     "contributes": {
-        "languages": [{
-            "id": "kl",
-            "aliases": ["KL", "kl"],
-            "extensions": [".kl"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "kl",
-            "scopeName": "source.kl",
-            "path": "./syntaxes/kl.tmLanguage"
-        }],
+        "languages": [
+            {
+                "id": "kl",
+                "aliases": [
+                    "KL",
+                    "kl"
+                ],
+                "extensions": [
+                    ".kl"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "kl",
+                "scopeName": "source.kl",
+                "path": "./syntaxes/kl.tmLanguage"
+            }
+        ],
         "snippets": [
             {
                 "language": "kl",
                 "path": "./snippets/kl-snippets.json"
             }
         ]
-
     }
 }
